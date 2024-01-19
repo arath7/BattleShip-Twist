@@ -24,7 +24,7 @@ public class ComputerPlayer extends AbstractPlayer {
    */
   public ComputerPlayer(Random rand, Board myBoard, Board opponentBoard) {
     super(rand, myBoard, opponentBoard);
-    this.name = "sierrawelsch";
+    this.name = "player0";
     this.coordinatesSeen = new ArrayList<>();
   }
 
